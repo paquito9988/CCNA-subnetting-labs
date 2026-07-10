@@ -19,7 +19,10 @@
 | PC3         | NIC      | 192.168.100.94  | 255.255.255.224   | 192.168.100.65         |
 | PC4         | NIC      | 192.168.100.126 | 255.255.255.224   | 192.168.100.97         |
 |             |          |                 |                   |                        |
+
 [Ir a Documentacion](#Documentar-el-esquema-de-direccionamiento)
+
+
 
 ![Topologia de red](./img/topologia-11-7-5.png)
 
@@ -60,7 +63,10 @@ e. Calcule el valor binario de las primeras 5 subredes. Las dos primeras subred
 | 2      | 192.168.100.64   | 0     | 1     | 0     | 0     | 0     | 0     | 0     | 0     |
 | 3      | 192.168.100.96   | 0     | 1     | 1     | 0     | 0     | 0     | 0     | 0     |
 | 4      | 192.168.100.128  | 1     | 0     | 0     | 0     | 0     | 0     | 0     | 0     |
+
+
 f. Calcule el valor binario y decimal de la nueva máscara de subred.
+
 
 | Primer octeto                   | Segundo Octeto         | Tercer Octeto         | Máscara Bit 7         | Máscara Bit 6 | Máscara Bit 5 | Máscara Bit 4 | Máscara Bit 3 | Máscara Bit 2 | Máscara Bit 1 | Bit de máscara 0 |
 | ------------------------------- | ---------------------- | --------------------- | --------------------- | ------------- | ------------- | ------------- | ------------- | ------------- | ------------- | ---------------- |
@@ -73,7 +79,7 @@ g. Rellene la **Tabla de subredes**, indicando el valor decimal de todas las sub
 
 **Nota:** Es posible que no utilice todas las filas.
 
-Tabla de subredes
+# Tabla de subredes
 
 | Número de subred | Dirección de subred | Primera dirección de host libre | Última dirección de host utilizable | Dirección de difusión | Gateway predeterminado |
 | ---------------- | ------------------- | ------------------------------- | ----------------------------------- | --------------------- | ---------------------- |

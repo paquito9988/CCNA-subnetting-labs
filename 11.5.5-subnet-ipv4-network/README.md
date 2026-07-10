@@ -1,8 +1,11 @@
 # Instrucciones
-![[Topologia de red.png|TOPOLOGIA DE RED]]
+![Topología de red](./img/topologia.png)
+
 ## Parte 1: Subred de la red
 
-### asignada Paso 1: Cree un esquema de subredes que cumpla con el número requerido de subredes y el número requerido de direcciones de alojamiento.
+# Cree un esquema de subredes que cumpla con el número requerido de subredes y el número requerido de direcciones de alojamiento.
+
+### Paso 1: 
 
 En este escenario, usted es un técnico de red asignado para instalar una nueva red para un cliente. Debe crear varias subredes en el espacio de la dirección de red 192.168.0.0/24 que cumplan los siguientes requisitos:
 
@@ -20,15 +23,15 @@ d. Responda las siguientes preguntas para ayudar a crear un esquema de subredes
 
 ¿Cuántas direcciones de host se necesitan en la subred requerida más grande?
 
-**Se necesitan 64 direcciones para cubrir la porción de red que tiene 50 hosts, de las cuales solo 62 seran utiles y se necesitan 6 bits de la porcion de host para cubrirla
+**Se necesitan 64 direcciones para cubrir la porción de red que tiene 50 hosts, de las cuales solo 62 seran utiles y se necesitan 6 bits de la porcion de host para cubrirla**
 
 ¿Cuál es la cantidad mínima de subredes requeridas?
 
-**4
+**4**
 
 La red que se le asigna a la subred es 192.168.0.0 / 24. ¿Cómo se escribe la máscara de subred /24 en binario?
 
-**11111111.11111111.11111111.00000000
+**11111111.11111111.11111111.00000000**
 
 e. La máscara de subred se compone de dos porciones, la porción de red y la porción host. Esto está representado en el binario por los unos y los ceros en la máscara de subred.
 
@@ -36,11 +39,11 @@ e. La máscara de subred se compone de dos porciones, la porción de red y la p
 
 En la máscara de red, ¿qué representan los unos?
 
-**Los unos representan la porción de red.
+**Los unos representan la porción de red.**
 
 En la máscara de red, ¿qué representan los números cero?
 
-**Los ceros representan la porción de host
+**Los ceros representan la porción de host**
 
 f. Para crear una subred en una red, los bits de la parte del host de la máscara de red original se cambian a bits de subred. La cantidad de bits de subred define la cantidad de subredes.
 
@@ -52,11 +55,11 @@ Dadas cada una de las máscaras de subred posibles representadas en el siguiente
 
 1) (/25) 11111111.11111111.11111111.**1**0000000
 
-**2 subredes
+**2 subredes**
 
-**128 direcciones
+**128 direcciones**
 
-**126 host útiles
+**126 host útiles**
 
 Máscara de subred decimal con puntos equivalente:
 
@@ -64,13 +67,13 @@ Cantidad de subredes: ¿Número de anfitriones?
 
 2) (/26) 11111111.11111111.11111111.**11**000000
 
-	**4 subredes
+	**4 subredes**
 	
-	**64 direcciones
+	**64 direcciones**
 	
-	**62 host útiles
+	**62 host útiles**
 	
-	**255.255.255.192
+	**255.255.255.192**
 
 Máscara de subred decimal con puntos equivalente:
 
@@ -78,13 +81,13 @@ Cantidad de subredes: ¿Número de anfitriones?
 
 3) (/27) 11111111.11111111.11111111.**111**00000
 
-**8 Subredes
+**8 Subredes**
 
-**255.255.255.224
+**255.255.255.224**
 
-**30 hosts útiles
+**30 hosts útiles**
 
-**32 direcciones
+**32 direcciones**
 
 Máscara de subred decimal con puntos equivalente:
 
@@ -92,13 +95,13 @@ Cantidad de subredes: ¿Número de anfitriones?
 
 4) (/28) 11111111.11111111.11111111.**1111**0000
 
-**255.255.255.240
+**255.255.255.240**
 
-**16 Subredes
+**16 Subredes**
 
-**14 host útiles
+**14 host útiles**
 
-**16 direcciones
+**16 direcciones**
 
 Máscara de subred decimal con puntos equivalente:
 
@@ -106,13 +109,13 @@ Cantidad de subredes: ¿Número de anfitriones?
 
 5) (/29) 11111111.11111111.11111111.**11111**000
 
-**6 direcciones host útiles
+**6 direcciones host útiles**
 
-**8 direcciones
+**8 direcciones**
 
-**32 subredes
+**32 subredes**
 
-**255.255.255.248
+**255.255.255.248**
 
 Máscara de subred decimal con puntos equivalente:
 
@@ -121,15 +124,13 @@ Cantidad de subredes: ¿Número de anfitriones?
 6) (/30) 11111111.11111111.11111111.**111111**00
 
 
-**64 subredes
+**64 subredes**
 
-**255.255.255.252
+**255.255.255.252**
 
-**2 direcciones útiles
+**2 direcciones útiles**
 
-**4 direcciones
-
-
+**4 direcciones**
 
 Máscara de subred decimal con puntos equivalente:
 
@@ -139,17 +140,17 @@ Considerando sus respuestas, ¿qué máscara de subred cumple la cantidad mínim
 
  (/26) 11111111.11111111.11111111.**11**000000
 
-**4 subredes
+**4 subredes**
 	
-**64 direcciones
+**64 direcciones**
 	
-**62 host útiles
+**62 host útiles**
 	
-**255.255.255.192
+**255.255.255.192**
 
 Considerando sus respuestas, ¿qué máscara de subred cumple la cantidad mínima de subredes requeridas?
 
-**La máscara que cumple la cantidad mínima de subredes requeridas es /26.**  
+**La máscara que cumple la cantidad mínima de subredes requeridas es /26.**
   
 Con /26 se toman prestados 2 bits de la porción de host:  
   
@@ -159,7 +160,7 @@ Por tanto, cumple el requisito mínimo de 4 subredes.
 
 Considerando sus respuestas, ¿qué máscara de subred cumple tanto la cantidad mínima de hosts como la cantidad mínima de subredes requeridas?
 
-**La máscara que cumple tanto la cantidad mínima de hosts como la cantidad mínima de subredes requeridas es /26.**  
+**La máscara que cumple tanto la cantidad mínima de hosts como la cantidad mínima de subredes requeridas es /26.**
   
 /26 permite:  
   
@@ -198,21 +199,20 @@ b. Asigne la segunda subred a LAN-B.
 
 3) Utilice la última dirección de host para PC-B. Asegúrese de asignar una dirección de puerta de enlace predeterminada para el PC.
 
-![[interfaces del Router.png|762]]
+![topologia](./img/interface-router.png)
 
-**Configuramos la interfaz del router con la primera ip disponible 192.168.0.1 
+**Configuramos la interfaz del router con la primera ip disponible 192.168.0.1**
 
-![[Configuración de Interfaces del router.png|811]]
+![configuracionRouter](./img/configuracion-router-interfaces.png)
 
-![[Configuracion del Switch LAN-A.png|819]]
+![configuracion LAN-A](./img/Configuracion-Switch-LAN-A.png)
 
-**Configuramos la puerta de enlace predeterminada y ponemos ip a la Vlan
+**Configuramos la puerta de enlace predeterminada y ponemos ip a la Vlan**
 
-**En el switch de LAN-B tambien configuramos la puerta de enlace predeterminada y la Vlan
+**En el switch de LAN-B tambien configuramos la puerta de enlace predeterminada y la Vlan**
+![configuracion LAN-B](./img/Configuracion-Switch-Lan-B.png)
 
-![[Configuración del Switch Lan-B.png|938]]
+**Por ultimo configuramos el Router con el nombre especificado en el enunciado y configuramos contraseñas...**
 
-**Por ultimo configuramos el Router con el nombre especificado en el enunciado y configuramos contraseñas...
-
-![[Check Results.png|944]]
+![[Check-Results.png|944]]
 

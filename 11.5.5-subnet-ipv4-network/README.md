@@ -214,5 +214,5 @@ b. Asigne la segunda subred a LAN-B.
 
 **Por ultimo configuramos el Router con el nombre especificado en el enunciado y configuramos contraseñas...**
 
-![[Check-Results.png|944]]
+![100%completo](./img/Check-Results.png)
 

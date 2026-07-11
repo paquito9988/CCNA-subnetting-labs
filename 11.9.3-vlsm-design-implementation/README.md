@@ -1,6 +1,6 @@
 # Packet Tracer - Práctica de Diseño e Implementación de VLSM
 
-![Topologia](./img/topologia.png|769)
+![Topologia](./img/topologia.png)
 
 |             |          |                   |                     |                        |
 | ----------- | -------- | ----------------- | ------------------- | ---------------------- |
@@ -153,7 +153,7 @@ La mayor parte de la asignación de direcciones IP ya está configurada en en es
 
 ### Paso 1: Configure el direccionamiento IP en las interfaces LAN del router Branch1.
 
-![Configuracion Branch 1](./img/Config-B1.png|845)
+![Configuracion Branch 1](./img/Config-B1.png)
 
 
 ![Show interfaces Branch 1](./img/show-interfaces.png)

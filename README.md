@@ -8,12 +8,12 @@ El objetivo del repositorio es documentar de forma clara el proceso de análisis
 
 ## Contenido del repositorio
 
-| Práctica | Tema | Estado | Documentación |
-|---|---|---|---|
-| 11.5.5 | División de una red IPv4 en subredes | Completada | [Ver práctica](./11.5.5-subnet-ipv4-network/) |
-| 11.7.5 | Escenario de subnetting IPv4 | Completada | [Ver práctica](./11.7.5-subnetting-scenario/) |
-| 11.9.3 | Diseño e implementación de un esquema VLSM | Completada | [Ver práctica](./11.9.3-vlsm-design-implementation/) |
-| 11.10.1 | Diseño e implementación de direccionamiento VLSM | Completada | [Ver práctica](./11.10.1-vlsm-addressing-scheme/) |
+| Práctica | Tema                                             | Estado     | Documentación                                        |
+| -------- | ------------------------------------------------ | ---------- | ---------------------------------------------------- |
+| 11.5.5   | División de una red IPv4 en subredes             | Completada | [Ver práctica](./11.5.5-subnet-ipv4-network/)        |
+| 11.7.5   | Escenario de subnetting IPv4                     | Completada | [Ver práctica](./11.7.5--subnetting-scenario/)       |
+| 11.9.3   | Diseño e implementación de un esquema VLSM       | Completada | [Ver práctica](./11.9.3-vlsm-design-implementation/) |
+| 11.10.1  | Diseño e implementación de direccionamiento VLSM | Completada | [Ver práctica](./11.10.1-vlsm-addressing-scheme/)    |
 
 ---
 

@@ -1,6 +1,6 @@
 **Packet Tracer - Diseñe e implemente un esquema** de direccionamiento VLSM
 
-![Topologia](CISCO/CCNA%20CISCO/Curso%201de3%20CCNA1/CURSO%20CCNA1/PRACTICAS%20PORTAFOLIO/SUBNETTING-Labs/11.10.1-vlsm-addressing-scheme/img/topologia.png)
+![Topologia](./img/topologia.png)
 
 
 # Tabla de asignación de direcciones
@@ -92,20 +92,20 @@ Requisitos de configuración
 
 Si el diseño y la implementación de direcciones son correctos, todos los hosts y dispositivos deben ser accesibles a través de la red.
 
-![HQ configuracion](HQ-config.png)
+![HQ configuracion](./img/HQ-config.png)
 
-![Remote config](remote-config.png)
-
-
-
-![Configuracion HQ-1](HQ-1-config.png)
+![Remote config](./img/remote-config.png)
 
 
-![Remote 1 config](Remote-1-config.png)
 
-![configuracion Remote2](remote2config.png)
+![Configuracion HQ-1](./img/HQ-1-config.png)
 
-![Configuracion de IP en los hosts](confi-hosts.png)
 
-![Check 100%](CISCO/CCNA%20CISCO/Curso%201de3%20CCNA1/CURSO%20CCNA1/PRACTICAS%20PORTAFOLIO/SUBNETTING-Labs/11.10.1-vlsm-addressing-scheme/img/check.png)
+![Remote 1 config](./img/Remote-1-config.png)
+
+![configuracion Remote2](./img/remote2config.png)
+
+![Configuracion de IP en los hosts](./img/confi-hosts.png)
+
+![Check 100%](./img/check.png)
 

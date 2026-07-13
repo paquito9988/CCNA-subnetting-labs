@@ -1,55 +1,106 @@
 # CCNA Subnetting Labs
 
-Repositorio con prácticas de **subnetting IPv4** realizadas con **Cisco Packet Tracer** como parte de mi preparación para la certificación **CCNA**.
+Repositorio con prácticas de **subnetting IPv4** y **VLSM** realizadas con **Cisco Packet Tracer** como parte de mi preparación para la certificación **CCNA**.
 
-El objetivo de este repositorio es documentar ejercicios prácticos relacionados con direccionamiento IPv4, cálculo de subredes, asignación de direcciones IP y verificación de conectividad en entornos simulados.
+El objetivo del repositorio es documentar de forma clara el proceso de análisis, cálculo, configuración y verificación de distintos escenarios de direccionamiento IPv4.
 
 ---
 
 ## Contenido del repositorio
 
-| Práctica | Tema                   | Estado     |
-| -------- | ---------------------- | ---------- |
-| 11.5.5   | Subnetting IPv4 básico | Completada |
-|          |                        |            |
+| Práctica | Tema | Estado | Documentación |
+|---|---|---|---|
+| 11.5.5 | División de una red IPv4 en subredes | Completada | [Ver práctica](./11.5.5-subnet-ipv4-network/) |
+| 11.7.5 | Escenario de subnetting IPv4 | Completada | [Ver práctica](./11.7.5-subnetting-scenario/) |
+| 11.9.3 | Diseño e implementación de un esquema VLSM | Completada | [Ver práctica](./11.9.3-vlsm-design-implementation/) |
+| 11.10.1 | Diseño e implementación de direccionamiento VLSM | Completada | [Ver práctica](./11.10.1-vlsm-addressing-scheme/) |
 
 ---
 
 ## Objetivos
 
 - Practicar el cálculo de subredes IPv4.
-- Comprender el uso de máscaras de subred.
-- Calcular rangos de hosts, direcciones de red y direcciones de broadcast.
-- Asignar direcciones IP a routers, switches y PCs.
+- Interpretar máscaras de subred y prefijos CIDR.
+- Calcular direcciones de red y broadcast.
+- Determinar rangos de hosts utilizables.
+- Diseñar esquemas de direccionamiento mediante VLSM.
+- Asignar direcciones IP a routers, switches y equipos finales.
 - Configurar puertas de enlace predeterminadas.
-- Verificar conectividad mediante comandos básicos.
-- Documentar prácticas de red de forma clara y ordenada.
+- Verificar la conectividad y detectar errores de direccionamiento.
+- Documentar prácticas técnicas de forma clara y reproducible.
 
 ---
 
-## Prácticas
+## Metodología utilizada
 
-### 11.5.5 - Subnetting IPv4 básico
+En cada práctica se sigue, de forma general, este proceso:
 
-En esta práctica se parte de la red:
+1. Análisis de los requisitos de direccionamiento.
+2. Cálculo de subredes, máscaras y rangos de hosts.
+3. Elaboración de la tabla de direccionamiento.
+4. Configuración de los dispositivos en Cisco Packet Tracer.
+5. Verificación mediante comandos y pruebas de conectividad.
+6. Corrección de errores detectados en **Check Results**.
+7. Documentación del procedimiento y de los resultados.
 
-```text
-192.168.0.0/24
-```
+---
 
+## Competencias desarrolladas
 
-## Tecnologías utilizadas
+- Subnetting IPv4.
+- VLSM (*Variable Length Subnet Masking*).
+- Direccionamiento IPv4.
+- Configuración básica de Cisco IOS.
+- Configuración de routers, switches y PCs.
+- Resolución de problemas de conectividad.
+- Interpretación de tablas de direccionamiento.
+- Documentación técnica en Markdown.
+
+---
+
+## Tecnologías y herramientas
 
 - Cisco Packet Tracer
-- IPv4
-- Subnetting
 - Cisco IOS
-- Configuración básica de routers y switches
+- IPv4
+- CIDR
+- Subnetting
+- VLSM
+- Markdown
+- Git y GitHub
 
 ---
 
+## Estructura del repositorio
+
+```text
+CCNA-subnetting-labs/
+├── 11.5.5-subnet-ipv4-network/
+├── 11.7.5-subnetting-scenario/
+├── 11.9.3-vlsm-design-implementation/
+├── 11.10.1-vlsm-addressing-scheme/
+├── .gitignore
+└── README.md
+```
+
+Cada carpeta contiene la documentación correspondiente a una práctica y puede incluir:
+
+- Explicación del ejercicio.
+- Cálculos de subnetting o VLSM.
+- Tabla de direccionamiento.
+- Configuración de dispositivos.
+- Capturas de pantalla.
+- Resultados de verificación.
+- Archivo de Cisco Packet Tracer, cuando corresponda.
+
+---
+
+## Estado del proyecto
+
+Este repositorio se encuentra en desarrollo y se actualizará con nuevas prácticas de subnetting y VLSM realizadas durante mi preparación para CCNA.
+
+---
 
 ## Nota
 
-Este repositorio forma parte de mi aprendizaje práctico en redes y preparación para CCNA.  
-Las prácticas están documentadas con cálculos, tablas de direccionamiento, configuraciones y capturas de verificación.
+Las direcciones IP y topologías utilizadas pertenecen a entornos de laboratorio y simulación. El contenido se publica con fines educativos y como evidencia de mi progreso práctico en redes.
